@@ -49,7 +49,7 @@
 
 ### APIs
 
-    API URL - https://datausa.io/api/data?drilldowns=Nation&measures=Population, https://api.coindesk.com/v1/bpi/currentprice.json
+    API URLs - https://datausa.io/api/data?drilldowns=Nation&measures=Population, https://api.coindesk.com/v1/bpi/currentprice.json
 
 ### Third-party packages
 
