@@ -1,0 +1,56 @@
+.crypto-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+.crypto-card{
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.head, .price{
+    color: white;
+    margin: 10px;
+}
+
+.description{
+    color: gray;
+    margin: 10px;
+}
+
+.prices-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate-float{
+    color: green;
+}
+
+.btc{
+    color: gold;
+    font-size: 26px;
+}
+
+.info{
+    color: green;
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+.trade-btn{
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 60px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,50 @@
+*{
+    font-family: 'Montserrat';
+}
+
+.home-container{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.heading{
+    color: white;
+    font-family: 'Montserrat';
+    /* margin: 10px; */
+    padding: 10px;
+    font-size: 38px;
+}
+
+.spanned-heading{
+    background: linear-gradient(to right, yellow, rgb(4, 163, 4));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.para{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.spanned-para{
+    color: rgb(9, 182, 9);
+}
+
+.graph-bg{
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    /* width: 50%; */
+}
+.graph-heading{
+    color: white;
+    font-family: 'Montserrat';
+    padding: 10px;
+}
