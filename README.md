@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Trading Application
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+    To implement a side navigation bar similar to the one highlighted in the provided image,  Fetch population data from the provided API , Fetch cryptocurrency prices from the provided API 
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Used ReactJS, React Router, CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Completion Instructions
 
-### `npm test`
+### Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Must Have
 
-### `npm run build`
+    * The navigation bar should be responsive and collapse into a hamburger menu on smaller screens.
+    * Highlight the active navigation item.
+    * Utilize React JS and any relevant libraries (e.g., Chart.js) to create the graph.
+    * Display the population data for different nations.
+    * Provide appropriate labels, legends, and axis titles for the graph.
+    * Fetch data asynchronously using React's lifecycle methods or hooks.
+    * Display prices for at least two cryptocurrencies (e.g., Bitcoin and Ethereum).
+    * Design visually appealing cards to showcase the cryptocurrency prices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Guidelines to develop a project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Must Have
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    * Create a new public repository on GitHub for the assignment.
+    * Commit your code regularly and include clear commit messages.
+    * Include a README file explaining the project setup, usage instructions, and any additional information.
+    * Ensure the repository is well-organized and easy to navigate.
 
-### `npm run eject`
+### Submission Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Must Have
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Functionality, Code Quality, User Interface, Error Handling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Resources
 
-## Learn More
+### Design files
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Used Design - Reference Image
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### APIs
 
-### Code Splitting
+    API URL - https://datausa.io/api/data?drilldowns=Nation&measures=Population, https://api.coindesk.com/v1/bpi/currentprice.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Third-party packages
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    chart.js
